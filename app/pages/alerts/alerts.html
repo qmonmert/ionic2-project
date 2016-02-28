@@ -1,0 +1,28 @@
+
+<ion-navbar *navbar>
+  <ion-title>
+    Tab Alerts
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="pageAlerts">
+    
+    {{ pageTitle }}
+    
+    <button block (click)="doAlert()">
+      Show Alert
+    </button>
+    
+    <button block dark (click)="doAlertPrompt()">
+      Show Alert Prompt
+    </button>
+    
+    <button block secondary (click)="doRadio()">
+      Show Radio
+    </button>
+    
+    <button block danger (click)="presentActionSheet()">
+      Show Action Sheet
+    </button>
+        
+</ion-content>
