@@ -2,7 +2,6 @@ import {Page}       from 'ionic-framework/ionic';
 import {Alerts}     from '../alerts/alerts';
 import {Components} from '../components/components';
 
-
 @Page({
   templateUrl: 'build/pages/tabs/tabs.html'
 })
